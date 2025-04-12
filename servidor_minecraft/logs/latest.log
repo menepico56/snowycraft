@@ -1,0 +1,45 @@
+[15:12:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:12:15] [ServerMain/INFO]: Loaded 7 recipes
+[15:12:15] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:12:15] [Server thread/INFO]: Loading properties
+[15:12:15] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[15:12:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:12:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:12:16] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[15:12:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:12:16] [Server thread/INFO]: Default game type: SURVIVAL
+[15:12:16] [Server thread/INFO]: Generating keypair
+[15:12:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:12:16] [Server thread/INFO]: Using epoll channel type
+[15:12:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:12:16] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:12:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:12:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:12:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:12:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:12:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:12:17] [Server thread/INFO]: Preparing level "world"
+[15:12:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:12:17] [Server thread/INFO]: Time elapsed: 270 ms
+[15:12:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:12:17] [Server thread/INFO]: Time elapsed: 106 ms
+[15:12:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:12:18] [Server thread/INFO]: Time elapsed: 78 ms
+[15:12:18] [Server thread/INFO]: Running delayed init tasks
+[15:12:18] [Server thread/INFO]: Done (2.543s)! For help, type "help"
+[15:12:18] [Server thread/INFO]: Timings Reset
+[15:17:09] [User Authenticator #0/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[15:17:09] [Server thread/INFO]: nashesupernashe joined the game
+[15:17:09] [Server thread/INFO]: nashesupernashe[/127.155.137.128:48477] logged in with entity id 186 at ([world]16.43730320179822, 79.0, 5.995230745413492)
+[15:17:14] [Server thread/INFO]: nashesupernashe issued server command: /plugins
+[15:17:22] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
+[15:17:22] [Server thread/INFO]: nashesupernashe left the game
+[15:22:54] [User Authenticator #1/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[15:22:54] [Server thread/INFO]: nashesupernashe joined the game
+[15:22:54] [Server thread/INFO]: nashesupernashe[/127.155.137.128:58085] logged in with entity id 269 at ([world]-1.3345718040487593, 79.0, -2.564795623070274)
+[15:23:01] [Server thread/INFO]: nashesupernashe issued server command: /plugins
+[15:23:05] [Server thread/INFO]: nashesupernashe issued server command: /tps
+[15:23:52] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
+[15:23:52] [Server thread/INFO]: nashesupernashe left the game
