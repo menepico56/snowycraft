@@ -210,3 +210,18 @@ could not find expected ':'
 [16:47:33] [Server thread/INFO]: nashesupernashe issued server command: /rtp config
 [16:47:38] [Server thread/INFO]: nashesupernashe issued server command: /rtp config
 [16:47:46] [Server thread/INFO]: nashesupernashe issued server command: /spawn
+[16:53:47] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
+[16:53:47] [Server thread/INFO]: nashesupernashe left the game
+[16:54:46] [User Authenticator #1/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[16:54:46] [Server thread/INFO]: nashesupernashe joined the game
+[16:54:46] [Server thread/INFO]: nashesupernashe[/127.222.227.61:48413] logged in with entity id 276789 at ([spawn]-75.05454262310283, -56.0, -51.695346318520755)
+[16:57:03] [User Authenticator #2/INFO]: UUID of player zVeltio is 1323c901-1f1e-3169-b831-44a78dd3874a
+[16:57:03] [Server thread/INFO]: zVeltio joined the game
+[16:57:03] [Server thread/INFO]: zVeltio[/127.145.27.13:55549] logged in with entity id 330207 at ([world]-2.5, 79.0, -1.5)
+[16:57:03] [Server thread/INFO]: zVeltio has made the advancement [Getting an Upgrade]
+[16:57:31] [Server thread/INFO]: zVeltio issued server command: /spawn
+[16:57:44] [Server thread/INFO]: zVeltio issued server command: /spawn
+[16:57:46] [Server thread/INFO]: nashesupernashe issued server command: /gamemode creative
+[16:58:57] [Server thread/INFO]: nashesupernashe issued server command: /gamemode creative zVeltio
+[17:01:13] [Server thread/INFO]: nashesupernashe issued server command: /spawn
+[17:01:16] [Server thread/INFO]: zVeltio issued server command: /spawn
