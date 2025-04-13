@@ -296,21 +296,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
+  "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "has_emerald_block": "2025-04-13 03:36:58 +0000"
+      "has_emerald": "2025-04-13 03:36:15 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-04-13 03:36:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2025-04-13 03:36:15 +0000"
     },
     "done": true
   },
@@ -329,6 +323,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2025-04-13 03:36:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-04-13 03:36:58 +0000"
     },
     "done": true
   },
