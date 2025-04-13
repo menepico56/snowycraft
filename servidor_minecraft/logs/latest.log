@@ -1,21 +1,21 @@
-[14:19:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:19:43] [ServerMain/INFO]: Loaded 7 recipes
-[14:19:43] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:19:43] [Server thread/INFO]: Loading properties
-[14:19:43] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[14:19:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:19:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:19:44] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:27:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:27:15] [ServerMain/INFO]: Loaded 7 recipes
+[15:27:16] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:27:16] [Server thread/INFO]: Loading properties
+[15:27:16] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[15:27:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:27:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:27:17] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:19:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[14:19:44] [Server thread/INFO]: Default game type: SURVIVAL
-[14:19:44] [Server thread/INFO]: Generating keypair
-[14:19:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:19:45] [Server thread/INFO]: Using epoll channel type
-[14:19:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:19:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:19:45] [Server thread/ERROR]: Cannot load plugins/SimpleRTP/config.yml
+[15:27:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:27:17] [Server thread/INFO]: Default game type: SURVIVAL
+[15:27:17] [Server thread/INFO]: Generating keypair
+[15:27:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:27:17] [Server thread/INFO]: Using epoll channel type
+[15:27:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:27:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:27:18] [Server thread/ERROR]: Cannot load plugins/SimpleRTP/config.yml
 org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
  in 'reader', line 35, column 7:
           blocked-worlds:spawn
@@ -91,113 +91,114 @@ could not find expected ':'
 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.0.jar:?]
 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	... 24 more
-[14:19:45] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[14:19:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@60221572]
-[14:19:46] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[14:19:46] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
-[14:19:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[14:19:46] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.22.3
-[14:19:46] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (378 ms).
-[14:19:46] [Server thread/INFO]: [Shopkeepers] Loading config.
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[14:19:46] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
-[14:19:46] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[14:19:46] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
-[14:19:46] [Server thread/INFO]: [Shopkeepers] Registering defaults.
-[14:19:46] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[14:19:46] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
-[14:19:46] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[14:19:46] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.3
-[14:19:46] [Server thread/INFO]: [SimpleRTP] Loading server plugin SimpleRTP v5.4
-[14:19:46] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.4
-[14:19:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:19:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[14:19:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:19:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:19:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[14:19:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:19:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:19:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:19:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:19:48] [Server thread/INFO]: Preparing level "world"
-[14:19:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:19:49] [Server thread/INFO]: Time elapsed: 245 ms
-[14:19:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:19:49] [Server thread/INFO]: Time elapsed: 92 ms
-[14:19:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:19:49] [Server thread/INFO]: Time elapsed: 69 ms
-[14:19:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[14:19:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[14:19:49] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:19:49] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
-[14:19:49] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[14:19:49] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[14:19:50] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[14:19:50] [Server thread/INFO]: Time elapsed: 602 ms
-[14:19:50] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[14:19:50] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[14:19:50] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
-[14:19:50] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[14:19:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[14:19:50] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[14:19:50] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[14:19:50] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[14:19:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[14:19:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[14:19:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[14:19:51] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[14:19:51] [Server thread/INFO]: [Essentials] Using locale en
-[14:19:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:19:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:19:51] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[14:19:51] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.22.3
-[14:19:51] [Server thread/INFO]: [Shopkeepers] Loading the data of 2 shopkeepers ...
-[14:19:51] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[14:19:51] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[14:19:51] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
-[14:19:51] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[14:19:51] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[14:19:51] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[14:19:51] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[14:19:51] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.3
-[14:19:51] [Server thread/INFO]: [SetSpawn] Enabled!
-[14:19:51] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v5.4
-[14:19:51] [Server thread/INFO]: [Images] Enabling Images v2.5.4
-[14:19:51] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
-[14:19:52] [Server thread/INFO]: Running delayed init tasks
-[14:19:52] [Server thread/INFO]: Done (8.393s)! For help, type "help"
-[14:19:52] [Server thread/INFO]: Timings Reset
-[14:19:52] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[14:19:52] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
-[14:19:52] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[14:19:54] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 0 images...
-[14:24:37] [User Authenticator #0/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
-[14:24:38] [Server thread/INFO]: nashesupernashe joined the game
-[14:24:38] [Server thread/INFO]: nashesupernashe[/127.140.150.237:57723] logged in with entity id 159 at ([spawn]-80.0655841199391, -56.0, -54.90392540524654)
-[14:25:58] [Server thread/INFO]: nashesupernashe issued server command: /gamemode creative
-[14:28:01] [Server thread/INFO]: nashesupernashe lost connection: Timed out
-[14:28:01] [Server thread/INFO]: nashesupernashe left the game
+[15:27:18] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[15:27:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@66134a9f]
+[15:27:19] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[15:27:19] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
+[15:27:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[15:27:19] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.22.3
+[15:27:19] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (471 ms).
+[15:27:19] [Server thread/INFO]: [Shopkeepers] Loading config.
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[15:27:19] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
+[15:27:19] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[15:27:19] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[15:27:19] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[15:27:19] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[15:27:19] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
+[15:27:19] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[15:27:19] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.3
+[15:27:19] [Server thread/INFO]: [SimpleRTP] Loading server plugin SimpleRTP v5.4
+[15:27:19] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.4
+[15:27:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:27:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[15:27:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:27:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:27:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[15:27:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:27:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:27:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:27:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:27:21] [Server thread/INFO]: Preparing level "world"
+[15:27:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:27:23] [Server thread/INFO]: Time elapsed: 398 ms
+[15:27:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:27:23] [Server thread/INFO]: Time elapsed: 126 ms
+[15:27:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:27:23] [Server thread/INFO]: Time elapsed: 50 ms
+[15:27:23] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:27:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:27:24] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:27:24] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
+[15:27:24] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[15:27:24] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[15:27:24] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[15:27:25] [Server thread/INFO]: Time elapsed: 796 ms
+[15:27:25] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[15:27:25] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[15:27:25] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[15:27:25] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[15:27:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[15:27:25] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[15:27:25] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[15:27:25] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[15:27:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[15:27:26] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:27:26] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:27:26] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[15:27:26] [Server thread/INFO]: [Essentials] Using locale en
+[15:27:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:27:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:27:26] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:27:26] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.22.3
+[15:27:26] [Server thread/INFO]: [Shopkeepers] Loading the data of 2 shopkeepers ...
+[15:27:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[15:27:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:27:27] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
+[15:27:27] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[15:27:27] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[15:27:27] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[15:27:27] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[15:27:27] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.3
+[15:27:27] [Server thread/INFO]: [SetSpawn] Enabled!
+[15:27:27] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v5.4
+[15:27:27] [Server thread/INFO]: [Images] Enabling Images v2.5.4
+[15:27:27] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
+[15:27:27] [Server thread/INFO]: Running delayed init tasks
+[15:27:27] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:27:27] [Server thread/INFO]: Done (11.302s)! For help, type "help"
+[15:27:27] [Server thread/INFO]: Timings Reset
+[15:27:27] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
+[15:27:27] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[15:27:29] [Craft Scheduler Thread - 2 - Images/INFO]: [Images] Loaded 0 images...
+[15:27:45] [User Authenticator #0/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[15:27:45] [Server thread/INFO]: nashesupernashe joined the game
+[15:27:45] [Server thread/INFO]: nashesupernashe[/127.222.227.61:43141] logged in with entity id 154 at ([spawn]-80.19914226357037, -56.0, -55.17243886462271)
+[15:34:04] [Server thread/INFO]: nashesupernashe issued server command: /gamemode survival
+[15:34:08] [Server thread/INFO]: nashesupernashe issued server command: /gamemode creative
+[15:36:16] [Server thread/INFO]: nashesupernashe issued server command: /enchantment alldamage 6
+[15:36:26] [Server thread/INFO]: nashesupernashe issued server command: /enchant alldamage 6
