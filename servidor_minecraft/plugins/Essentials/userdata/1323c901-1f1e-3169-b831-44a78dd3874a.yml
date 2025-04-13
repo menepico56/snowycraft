@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1744563983356
   login: 1744563423300
 money: '0'
 last-account-name: zVeltio
@@ -28,3 +28,11 @@ lastlocation:
   z: 0.0
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: dc8001a9-6dd6-4857-ad63-058acee72aa8
+  world-name: world
+  x: 79.30261331911235
+  y: -1.0
+  z: -44.30000001192093
+  yaw: 38.59521484375
+  pitch: 19.425941467285156

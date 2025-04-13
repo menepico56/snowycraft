@@ -225,3 +225,14 @@ could not find expected ':'
 [16:58:57] [Server thread/INFO]: nashesupernashe issued server command: /gamemode creative zVeltio
 [17:01:13] [Server thread/INFO]: nashesupernashe issued server command: /spawn
 [17:01:16] [Server thread/INFO]: zVeltio issued server command: /spawn
+[17:04:26] [Server thread/INFO]: zVeltio has made the advancement [We Need to Go Deeper]
+[17:04:42] [Server thread/INFO]: nashesupernashe has made the advancement [We Need to Go Deeper]
+[17:05:02] [Server thread/INFO]: nashesupernashe was slain by zVeltio
+[17:05:02] [Server thread/INFO]: zVeltio has made the advancement [Diamonds!]
+[17:05:21] [Server thread/INFO]: zVeltio has made the advancement [Stone Age]
+[17:05:42] [Server thread/INFO]: nashesupernashe issued server command: /op zVeltio
+[17:05:42] [Server thread/INFO]: [nashesupernashe: Made zVeltio a server operator]
+[17:06:23] [Server thread/INFO]: zVeltio lost connection: Disconnected
+[17:06:23] [Server thread/INFO]: zVeltio left the game
+[17:07:23] [Server thread/INFO]: nashesupernashe issued server command: /plugins
+[17:11:41] [Server thread/INFO]: nashesupernashe issued server command: /gamemode creative
