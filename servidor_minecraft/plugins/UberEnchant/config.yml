@@ -1,0 +1,20 @@
+# Set the locale
+locale: en_us
+
+# Enable/Disable custom enchantment table and anvil mechanics
+mechanics:
+  enchantment_table: true
+  anvil: true
+
+# Cost for certain commands
+cost:
+  name:
+    add: 500.0
+    set: 500.0
+    remove: 100.0
+  lore:
+    add: 500.0
+    clear: 100.0
+    remove: 100.0
+    set: 500.0
+    insert: 500.0
