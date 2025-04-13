@@ -1,0 +1,94 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3465
+'1':
+  uniqueId: 28d0c356-6c2a-4bc7-a28c-b34fea2d0f82
+  world: spawn
+  x: -52
+  y: -57
+  z: -84
+  yaw: 41.03948
+  type: admin
+  name: VINTER
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: EMERALD
+        amount: 20
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BOOK
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DURABILITY: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: EMERALD
+        amount: 26
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BOOK
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: EMERALD
+        amount: 30
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BOOK
+  snapshots: []
+'2':
+  uniqueId: 7dbd5496-f456-4489-8075-1f91a880f256
+  world: spawn
+  x: -82
+  y: -56
+  z: -54
+  yaw: 225.27466
+  type: admin
+  name: RICARDO
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
