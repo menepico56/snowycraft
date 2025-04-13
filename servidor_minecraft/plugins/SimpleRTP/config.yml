@@ -29,10 +29,10 @@ Cancel-On-Move:
 
 # RTP will not be available in blacklisted worlds.
 Teleportation:
-  worlds:world
+  worlds:
     blacklist:
       enabled: true
-      blocked-worlds:
+      blocked-worlds:spawn
       - "world_the_end"
 
 Invalid-World: '&cYou can not use RTP in this world.'

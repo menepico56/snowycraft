@@ -15,10 +15,10 @@ regions:
         max: {x: 0, y: 319, z: -2}
         members: {}
         flags: {other-explosion: deny, wither-damage: deny, lava-fire: deny, use: allow,
-            interact: allow, enderman-grief: deny, pvp: deny, pistons: deny, mob-spawning: deny,
-            firework-damage: deny, fire-spread: deny, enderdragon-block-damage: deny,
-            sleep: allow, creeper-explosion: deny, mob-damage: deny, damage-animals: deny,
-            tnt: deny, ghast-fireball: deny}
+            interact: allow, enderman-grief: deny, pistons: deny, pvp: deny, firework-damage: deny,
+            mob-spawning: deny, fire-spread: deny, enderdragon-block-damage: deny,
+            sleep: allow, creeper-explosion: deny, build: deny, mob-damage: deny,
+            passthrough: deny, damage-animals: deny, tnt: deny, ghast-fireball: deny}
         owners: {}
         type: cuboid
         priority: 0
