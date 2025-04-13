@@ -211,3 +211,57 @@ could not find expected ':'
 [15:46:05] [Server thread/INFO]: nashesupernashe issued server command: /give @p netherite_sword[enchantments={levels:{'minecraft:sharpness':100,'minecraft:unbreaking':100, 'minecraft:looting':100},show_in_tooltip:true}]
 [15:46:33] [Server thread/INFO]: nashesupernashe issued server command: /give @p netherite_sword[enchantments={levels:{'minecraft:sharpness':100,'minecraft:unbreaking':100, 'minecraft:looting':100},show_in_tooltip:true}]
 [15:47:02] [Server thread/INFO]: nashesupernashe issued server command: /give @p diamond_sword[enchantments={levels:{'minecraft:sharpness':100,'minecraft:unbreaking':100, 'minecraft:looting':100},show_in_tooltip:true}]
+[15:47:57] [Server thread/INFO]: nashesupernashe issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:10},{id:looting,lvl:10}]}
+[15:48:38] [Server thread/INFO]: nashesupernashe issued server command: /give @p diamond_sword{Enchantments:[{id:sharpness,lvl:10},{id:looting,lvl:10}]}
+[15:48:41] [Server thread/INFO]: nashesupernashe issued server command: /give @p diamond_sword{Enchantments:[{id:sharpness,lvl:10},{id:looting,lvl:10}]}
+[15:49:04] [Server thread/INFO]: nashesupernashe issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:10},{id:looting,lvl:10}]}
+[15:50:52] [Server thread/INFO]: Stopping the server
+[15:50:52] [Server thread/INFO]: Stopping server
+[15:50:52] [Server thread/INFO]: [Images] Disabling Images v2.5.4
+[15:50:52] [Server thread/INFO]: [SimpleRTP] Disabling SimpleRTP v5.4
+[15:50:52] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.3
+[15:50:52] [Server thread/INFO]: [SetSpawn] Disabled!
+[15:50:52] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
+[15:50:52] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[15:50:52] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
+[15:50:52] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[15:50:52] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[15:50:52] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.22.3
+[15:50:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[15:50:52] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.16
+[15:50:52] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[15:50:52] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:50:52] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[15:50:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:50:52] [Server thread/INFO]: Saving players
+[15:50:52] [Server thread/INFO]: nashesupernashe lost connection: Server closed
+[15:50:52] [Server thread/INFO]: nashesupernashe left the game
+[15:50:52] [Server thread/INFO]: Saving worlds
+[15:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 52 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[15:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[15:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[15:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'spawn' in 0.00s
+[15:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[15:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:50:52] [Server thread/INFO]: Flushing Chunk IO
+[15:50:52] [Server thread/INFO]: Closing Thread Pool
+[15:50:52] [Server thread/INFO]: Closing Server
