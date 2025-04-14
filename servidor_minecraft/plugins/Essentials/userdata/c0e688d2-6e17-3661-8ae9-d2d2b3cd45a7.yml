@@ -16,16 +16,16 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744661728087
-  login: 1744661352092
+  logout: 1744662452589
+  login: 1744662379202
 money: '0'
 last-account-name: nashesupernashe
 logoutlocation:
   world: 1f88ad13-2583-41cb-9c7b-dc082c28fd38
   world-name: spawn
-  x: -67.18478106648075
-  y: -52.0
-  z: -64.97904272557
-  yaw: 178.6430206298828
-  pitch: 8.105365753173828
+  x: -80.14396482367874
+  y: -56.0
+  z: -54.080798628571486
+  yaw: 81.20504760742188
+  pitch: 14.748844146728516
 confirm-clear: false
