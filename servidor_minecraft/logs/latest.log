@@ -226,3 +226,58 @@ could not find expected ':'
 [19:42:34] [Server thread/INFO]: nashesupernashe issued server command: /clearconfirmoff
 [19:43:28] [Server thread/INFO]: nashesupernashe issued server command: /remove all
 [19:43:36] [Server thread/INFO]: nashesupernashe issued server command: /gamemode 1
+[20:00:31] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[20:00:31] [Server thread/INFO]: nashesupernashe lost connection: Server is restarting
+[20:00:31] [Server thread/INFO]: nashesupernashe left the game
+[20:00:31] [Server thread/INFO]: Stopping server
+[20:00:31] [Server thread/INFO]: [Images] Disabling Images v2.5.4
+[20:00:31] [Server thread/INFO]: [SimpleRTP] Disabling SimpleRTP v5.4
+[20:00:31] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[20:00:31] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[20:00:31] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.3
+[20:00:31] [Server thread/INFO]: [SetSpawn] Disabled!
+[20:00:31] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v1.0.0
+[20:00:31] [Server thread/INFO]: Advanced portals are being disabled!
+[20:00:31] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
+[20:00:31] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[20:00:31] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
+[20:00:31] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[20:00:31] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[20:00:31] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.22.3
+[20:00:31] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.11.0
+[20:00:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[20:00:31] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.16
+[20:00:31] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:00:31] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:00:31] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[20:00:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:00:31] [Server thread/INFO]: Saving players
+[20:00:31] [Server thread/INFO]: Saving worlds
+[20:00:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 112 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[20:00:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:00:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 73 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[20:00:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:00:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:00:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:00:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[20:00:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'spawn' in 0.00s
+[20:00:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[20:00:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:00:31] [Server thread/INFO]: Flushing Chunk IO
+[20:00:31] [Server thread/INFO]: Closing Thread Pool
+[20:00:31] [Server thread/INFO]: Closing Server
