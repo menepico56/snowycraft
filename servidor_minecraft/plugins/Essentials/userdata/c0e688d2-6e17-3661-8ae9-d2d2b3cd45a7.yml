@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.222.227.61
+ip-address: 127.248.80.104
 afk: false
 socialspy: false
 npc: false
@@ -16,15 +16,16 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744564714155
-  login: 1744563286414
+  logout: 1744584609233
+  login: 1744659707857
 money: '0'
 last-account-name: nashesupernashe
 logoutlocation:
   world: 1f88ad13-2583-41cb-9c7b-dc082c28fd38
   world-name: spawn
-  x: -40.91451422377847
-  y: -56.0
-  z: -68.59679615599663
-  yaw: 88.19384765625
-  pitch: 19.143213272094727
+  x: -94.11978545567838
+  y: -51.50664333751656
+  z: -69.43839739970046
+  yaw: -91.40478515625
+  pitch: 10.239300727844238
+confirm-clear: false

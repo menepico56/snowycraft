@@ -10,6 +10,7 @@
       "minecraft:taiga": "2025-04-12 18:54:20 +0000",
       "minecraft:snowy_plains": "2025-04-12 18:26:10 +0000",
       "minecraft:snowy_taiga": "2025-04-12 15:05:14 +0000",
+      "minecraft:lush_caves": "2025-04-13 21:56:14 +0000",
       "minecraft:plains": "2025-04-12 18:29:34 +0000"
     },
     "done": false
@@ -419,6 +420,60 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-04-13 17:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_axe": "2025-04-13 22:00:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_axe": "2025-04-13 22:00:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-04-13 22:01:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-04-13 22:01:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-04-13 22:01:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-04-13 22:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-04-13 22:19:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-04-14 19:43:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-14 19:43:38 +0000"
     },
     "done": true
   },

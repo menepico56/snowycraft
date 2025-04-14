@@ -1,0 +1,14 @@
+#  ExampleDestination:
+#    world: it will be the world name
+#    pos:
+#      X:
+#      Y:
+
+survival:
+  world: world
+  pos:
+    X: -7.523340497660143
+    Y: 79.0
+    Z: -2.6868602375432604
+    pitch: 71.34481
+    yaw: 119.47044
