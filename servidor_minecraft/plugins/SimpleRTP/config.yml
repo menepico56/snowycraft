@@ -32,10 +32,11 @@ Teleportation:
   worlds:
     blacklist:
       enabled: true
-      blocked-worlds:spawn
+      blocked-worlds:
+      - "spawn"
       - "world_the_end"
 
-Invalid-World: '&cYou can not use RTP in this world.'
+Invalid-World: '&cAqui no se usa rtp.'
 
 # The maximum and minimum range coordinates the player will teleport from their original place.
 # If the world is not listed it will use -world
