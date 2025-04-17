@@ -231,3 +231,9 @@
 [21:48:30] [User Authenticator #1/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
 [21:48:30] [Server thread/INFO]: nashesupernashe joined the game
 [21:48:30] [Server thread/INFO]: nashesupernashe[/127.10.155.219:59439] logged in with entity id 2542085 at ([spawn]-103.75337727276164, -56.0, -67.30054535134194)
+[21:55:38] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
+[21:56:38] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
+[21:56:38] [Server thread/INFO]: nashesupernashe left the game
+[21:56:51] [User Authenticator #2/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[21:56:51] [Server thread/INFO]: nashesupernashe joined the game
+[21:56:51] [Server thread/INFO]: nashesupernashe[/127.10.155.219:54599] logged in with entity id 2736913 at ([spawn]-66.39225965679813, -52.0, -68.6525367842969)
