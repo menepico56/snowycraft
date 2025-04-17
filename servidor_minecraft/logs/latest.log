@@ -159,3 +159,30 @@
 [20:07:14] [Async Chat Thread - #0/INFO]: [Not Secure] <nashesupernashe> Ken Carson
 [20:07:36] [Server thread/INFO]: nashesupernashe issued server command: /gm1
 [20:07:38] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
+[20:19:22] [Server thread/INFO]: nashesupernashe issued server command: /images list
+[20:19:39] [Server thread/INFO]: nashesupernashe issued server command: /image create jero_winter.jpg
+[20:19:53] [Server thread/INFO]: nashesupernashe issued server command: /image create jero_winter.jpg
+[20:20:00] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg
+[20:20:27] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg
+[20:20:31] [Craft Scheduler Thread - 128 - Images/INFO]: Map color cache not found, building it in the background
+[20:20:52] [Worker-Main-1/INFO]: Map color cache build successfully
+[20:20:52] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:22:29] [Server thread/INFO]: nashesupernashe issued server command: /image create
+[20:22:40] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 4x3
+[20:22:44] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 4 3
+[20:23:04] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:23:07] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:23:31] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 16 12
+[20:23:38] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 16 12
+[20:23:52] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:24:12] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 4 3
+[20:24:32] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:24:42] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:25:21] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 3 3
+[20:25:28] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:25:38] [Server thread/INFO]: nashesupernashe issued server command: /image import nashesupernashe nashesupernashe
+[20:25:49] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg
+[20:25:59] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 9 9
+[20:26:07] [Server thread/INFO]: nashesupernashe issued server command: /image delete
+[20:28:18] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 3 3
+[20:28:24] [Server thread/INFO]: nashesupernashe issued server command: /image delete
