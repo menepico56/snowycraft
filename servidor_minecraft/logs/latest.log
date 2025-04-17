@@ -210,3 +210,8 @@
 [20:35:02] [Server thread/INFO]: nashesupernashe issued server command: /image delete
 [20:35:09] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 40 30
 [20:36:57] [Server thread/INFO]: nashesupernashe issued server command: /images create nachitoshitpost.jpg 40 30
+[20:39:09] [Server thread/INFO]: nashesupernashe issued server command: /deop nashesupernashe
+[20:39:09] [Server thread/INFO]: [nashesupernashe: Made nashesupernashe no longer a server operator]
+[20:39:43] [Server thread/INFO]: nashesupernashe issued server command: /spawn
+[20:39:46] [Server thread/INFO]: nashesupernashe issued server command: /spawn
+[20:39:55] [Server thread/INFO]: nashesupernashe issued server command: /spawn
