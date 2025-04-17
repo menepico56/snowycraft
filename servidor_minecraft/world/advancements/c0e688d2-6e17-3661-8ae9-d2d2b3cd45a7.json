@@ -567,5 +567,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-04-17 21:41:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-17 21:42:24 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -107,13 +107,13 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: EMERALD
-        amount: 64
+        type: EMERALD_BLOCK
+        amount: 11
       item2:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 16
+        type: DIAMOND_BLOCK
+        amount: 5
     '2':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -130,13 +130,13 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: EMERALD
-        amount: 64
+        type: EMERALD_BLOCK
+        amount: 11
       item2:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 25
+        type: DIAMOND_BLOCK
+        amount: 5
     '3':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -153,13 +153,13 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: EMERALD
-        amount: 40
+        type: EMERALD_BLOCK
+        amount: 10
       item2:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 16
+        type: DIAMOND_BLOCK
+        amount: 5
     '4':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -176,13 +176,13 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: EMERALD
-        amount: 64
+        type: EMERALD_BLOCK
+        amount: 10
       item2:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 22
+        type: DIAMOND_BLOCK
+        amount: 5
   snapshots: []
 '3':
   uniqueId: f82d6c5e-e02d-4d08-918f-c643eba5b070
@@ -204,30 +204,12 @@ data-version: 3|2|3465
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: NETHERITE_HELMET
+        type: NETHERITE_BOOTS
         meta:
           ==: ItemMeta
           meta-type: ARMOR
           enchants:
-            WATER_WORKER: 2
             PROTECTION_FALL: 5
-            MENDING: 1
-            PROTECTION_ENVIRONMENTAL: 5
-            DURABILITY: 3
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3465
-        type: DIAMOND
-        amount: 23
-    '2':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3465
-        type: NETHERITE_CHESTPLATE
-        meta:
-          ==: ItemMeta
-          meta-type: ARMOR
-          enchants:
             MENDING: 1
             PROTECTION_ENVIRONMENTAL: 5
             THORNS: 4
@@ -235,9 +217,9 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 25
-    '3':
+        type: DIAMOND_BLOCK
+        amount: 16
+    '2':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
@@ -253,18 +235,36 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 24
-    '4':
+        type: DIAMOND_BLOCK
+        amount: 16
+    '3':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: NETHERITE_BOOTS
+        type: NETHERITE_HELMET
         meta:
           ==: ItemMeta
           meta-type: ARMOR
           enchants:
+            WATER_WORKER: 2
             PROTECTION_FALL: 5
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_BLOCK
+        amount: 16
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: NETHERITE_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
             MENDING: 1
             PROTECTION_ENVIRONMENTAL: 5
             THORNS: 4
@@ -272,6 +272,6 @@ data-version: 3|2|3465
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3465
-        type: DIAMOND
-        amount: 23
+        type: DIAMOND_BLOCK
+        amount: 16
   snapshots: []
