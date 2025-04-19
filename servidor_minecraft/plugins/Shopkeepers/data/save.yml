@@ -83,7 +83,7 @@ data-version: 3|2|3465
   z: -54
   yaw: 225.27466
   type: admin
-  name: yo soy musica
+  name: menfrepico
   object:
     type: villager
     baby: false
@@ -192,7 +192,7 @@ data-version: 3|2|3465
   z: -55
   yaw: 138.68242
   type: admin
-  name: Ken Carson
+  name: Agusfornait
   object:
     type: villager
     baby: false

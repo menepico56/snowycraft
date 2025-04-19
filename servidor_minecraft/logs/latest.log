@@ -1,241 +1,188 @@
-[19:58:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:59:02] [ServerMain/INFO]: Loaded 7 recipes
-[19:59:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:59:03] [Server thread/INFO]: Loading properties
-[19:59:03] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[19:59:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:59:04] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:59:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:02:24] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins/fakeplayers-0.7.6+1.20.1.jar' failed to load!
+java.lang.RuntimeException: Directory 'plugins/fakeplayers-0.7.6+1.20.1.jar' failed to load!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.Main.main(Main.java:137) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.Main.main(Main.java:324) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/fakeplayers-0.7.6+1.20.1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	... 20 more
+[15:02:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:02:34] [ServerMain/INFO]: Loaded 7 recipes
+[15:02:35] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:02:35] [Server thread/INFO]: Loading properties
+[15:02:35] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[15:02:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:02:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:02:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:59:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:59:05] [Server thread/INFO]: Default game type: SURVIVAL
-[19:59:05] [Server thread/INFO]: Generating keypair
-[19:59:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:59:05] [Server thread/INFO]: Using epoll channel type
-[19:59:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:59:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:59:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[19:59:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1d12ff76]
-[19:59:07] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[19:59:07] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
-[19:59:07] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[19:59:07] [Server thread/INFO]: [UberEnchant] Loading server plugin UberEnchant v8.11.0
-[19:59:07] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.22.3
-[19:59:08] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (537 ms).
-[19:59:08] [Server thread/INFO]: [Shopkeepers] Loading config.
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[19:59:08] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
-[19:59:08] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[19:59:08] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
-[19:59:08] [Server thread/INFO]: [Shopkeepers] Registering defaults.
-[19:59:08] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[19:59:08] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
-[19:59:08] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[19:59:08] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v1.0.0
-[19:59:08] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
-[19:59:08] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.3
-[19:59:08] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[19:59:08] [Server thread/INFO]: [SimpleRTP] Loading server plugin SimpleRTP v5.4
-[19:59:08] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.4
-[19:59:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:59:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[19:59:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:59:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:59:09] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[19:59:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:59:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:59:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:59:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:59:11] [Server thread/INFO]: Preparing level "world"
-[19:59:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:59:13] [Server thread/INFO]: Time elapsed: 475 ms
-[19:59:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:59:13] [Server thread/INFO]: Time elapsed: 152 ms
-[19:59:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:59:13] [Server thread/INFO]: Time elapsed: 109 ms
-[19:59:13] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[19:59:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[19:59:14] [Server thread/INFO]: [WorldGuard] Loading region data...
-[19:59:14] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
-[19:59:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[19:59:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[19:59:15] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[19:59:16] [Server thread/INFO]: Time elapsed: 1111 ms
-[19:59:16] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[19:59:16] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[19:59:16] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
-[19:59:16] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[19:59:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[19:59:16] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[19:59:16] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[19:59:16] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[19:59:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[19:59:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:59:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:59:17] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[19:59:17] [Server thread/INFO]: [Essentials] Using locale en
-[19:59:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:59:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:59:18] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:59:18] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.11.0
-[19:59:18] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
-[19:59:18] [Server thread/INFO]: [UberEnchant] Custom enchantment table mechanics enabled!
-[19:59:18] [Server thread/INFO]: [UberEnchant] Custom anvil mechanics enabled!
-[19:59:18] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.22.3
-[19:59:18] [Server thread/INFO]: [Shopkeepers] Loading the data of 3 shopkeepers ...
-[19:59:18] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[19:59:18] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[19:59:18] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
-[19:59:18] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[19:59:18] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[19:59:18] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[19:59:18] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[19:59:18] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v1.0.0
-[19:59:18] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
-[19:59:18] [Server thread/WARN]: [AdvancedPortals] Proxy features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml).If you are using Paper proxies.velocity.enabled (config/paper-global.yml) or settings.velocity-support.enabled (paper.yml) may not be enabled 
-[19:59:18] [Server thread/INFO]: Advanced portals have been successfully enabled!
-[19:59:18] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[19:59:18] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[19:59:18] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[19:59:18] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[19:59:18] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[19:59:18] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[19:59:18] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.3
-[19:59:18] [Server thread/INFO]: [SetSpawn] Enabled!
-[19:59:18] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:59:18] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:59:18] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:59:18] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[19:59:18] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:59:19] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:59:19] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:59:19] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[19:59:19] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v5.4
-[19:59:19] [Server thread/INFO]: [Images] Enabling Images v2.5.4
-[19:59:19] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
-[19:59:19] [Thread-10/INFO]: [ClearLag] No updates found!
-[19:59:19] [Server thread/INFO]: [UberEnchant] Found: 0 Registered UberEnchantments.
-[19:59:19] [Server thread/INFO]: [UberEnchant] Loaded: 0 UberEnchantments.
-[19:59:19] [Server thread/INFO]: Running delayed init tasks
-[19:59:19] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:59:19] [Server thread/INFO]: Done (16.244s)! For help, type "help"
-[19:59:19] [Server thread/INFO]: Timings Reset
-[19:59:20] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
-[19:59:20] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[19:59:22] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 0 images...
-[20:03:07] [User Authenticator #0/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
-[20:03:07] [Server thread/INFO]: nashesupernashe joined the game
-[20:03:07] [Server thread/INFO]: nashesupernashe[/127.10.155.219:42511] logged in with entity id 313 at ([spawn]-68.22056709681046, -56.0, -39.02458584365425)
-[20:04:15] [Server thread/INFO]: nashesupernashe issued server command: /locate biome plains
-[20:04:23] [Server thread/INFO]: nashesupernashe issued server command: /locate nashesupernashe}
-[20:04:27] [Server thread/INFO]: nashesupernashe issued server command: /locate nashesupernashe
-[20:04:47] [Server thread/INFO]: nashesupernashe issued server command: /spawn
-[20:04:49] [Server thread/INFO]: nashesupernashe issued server command: /rtp
-[20:07:14] [Async Chat Thread - #0/INFO]: [Not Secure] <nashesupernashe> Ken Carson
-[20:07:36] [Server thread/INFO]: nashesupernashe issued server command: /gm1
-[20:07:38] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
-[20:19:22] [Server thread/INFO]: nashesupernashe issued server command: /images list
-[20:19:39] [Server thread/INFO]: nashesupernashe issued server command: /image create jero_winter.jpg
-[20:19:53] [Server thread/INFO]: nashesupernashe issued server command: /image create jero_winter.jpg
-[20:20:00] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg
-[20:20:27] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg
-[20:20:31] [Craft Scheduler Thread - 128 - Images/INFO]: Map color cache not found, building it in the background
-[20:20:52] [Worker-Main-1/INFO]: Map color cache build successfully
-[20:20:52] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:22:29] [Server thread/INFO]: nashesupernashe issued server command: /image create
-[20:22:40] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 4x3
-[20:22:44] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 4 3
-[20:23:04] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:23:07] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:23:31] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 16 12
-[20:23:38] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 16 12
-[20:23:52] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:24:12] [Server thread/INFO]: nashesupernashe issued server command: /image create tato.png 4 3
-[20:24:32] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:24:42] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:25:21] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 3 3
-[20:25:28] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:25:38] [Server thread/INFO]: nashesupernashe issued server command: /image import nashesupernashe nashesupernashe
-[20:25:49] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg
-[20:25:59] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 9 9
-[20:26:07] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:28:18] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 3 3
-[20:28:24] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:29:40] [Server thread/INFO]: nashesupernashe issued server command: /images create 10 10
-[20:29:46] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 10 10
-[20:30:00] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:30:14] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 100 100
-[20:30:29] [Server thread/INFO]: nashesupernashe issued server command: /images delete
-[20:30:40] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 30 309
-[20:30:48] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:30:57] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 30 30
-[20:31:06] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:31:13] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 90 90
-[20:31:24] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:31:34] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 45 45
-[20:32:06] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:32:25] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 40 45
-[20:32:40] [Server thread/INFO]: nashesupernashe issued server command: /images delete
-[20:32:49] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 40 40
-[20:33:00] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:34:07] [Server thread/INFO]: nashesupernashe issued server command: /images create 30 30
-[20:34:12] [Server thread/INFO]: nashesupernashe issued server command: /images create jerowinter.jpg 30 30
-[20:34:20] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:34:54] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 30 40
-[20:35:02] [Server thread/INFO]: nashesupernashe issued server command: /image delete
-[20:35:09] [Server thread/INFO]: nashesupernashe issued server command: /image create jerowinter.jpg 40 30
-[20:36:57] [Server thread/INFO]: nashesupernashe issued server command: /images create nachitoshitpost.jpg 40 30
-[20:39:09] [Server thread/INFO]: nashesupernashe issued server command: /deop nashesupernashe
-[20:39:09] [Server thread/INFO]: [nashesupernashe: Made nashesupernashe no longer a server operator]
-[20:39:43] [Server thread/INFO]: nashesupernashe issued server command: /spawn
-[20:39:46] [Server thread/INFO]: nashesupernashe issued server command: /spawn
-[20:39:55] [Server thread/INFO]: nashesupernashe issued server command: /spawn
-[21:27:53] [Async Chat Thread - #2/INFO]: [Not Secure] <nashesupernashe> no hablo porque no tengo mic en la compu
-[21:35:51] [Async Chat Thread - #4/INFO]: [Not Secure] <nashesupernashe> sisis
-[21:36:45] [Async Chat Thread - #5/INFO]: [Not Secure] <nashesupernashe> jiji
-[21:36:55] [Async Chat Thread - #4/INFO]: [Not Secure] <nashesupernashe> che winter
-[21:37:01] [Async Chat Thread - #4/INFO]: [Not Secure] <nashesupernashe> moves mi principal?
-[21:37:22] [Async Chat Thread - #5/INFO]: [Not Secure] <nashesupernashe> voy
-[21:38:18] [Async Chat Thread - #4/INFO]: [Not Secure] <nashesupernashe> no te escucho silencie el volumen de la pc
-[21:41:02] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
-[21:41:02] [Server thread/INFO]: [Essentials] nashesupernashe was denied access to command.
-[21:41:16] [Server thread/INFO]: Made nashesupernashe a server operator
-[21:41:20] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
-[21:47:22] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
-[21:47:22] [Server thread/INFO]: nashesupernashe left the game
-[21:48:30] [User Authenticator #1/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
-[21:48:30] [Server thread/INFO]: nashesupernashe joined the game
-[21:48:30] [Server thread/INFO]: nashesupernashe[/127.10.155.219:59439] logged in with entity id 2542085 at ([spawn]-103.75337727276164, -56.0, -67.30054535134194)
-[21:55:38] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
-[21:56:38] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
-[21:56:38] [Server thread/INFO]: nashesupernashe left the game
-[21:56:51] [User Authenticator #2/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
-[21:56:51] [Server thread/INFO]: nashesupernashe joined the game
-[21:56:51] [Server thread/INFO]: nashesupernashe[/127.10.155.219:54599] logged in with entity id 2736913 at ([spawn]-66.39225965679813, -52.0, -68.6525367842969)
-[22:11:32] [Server thread/INFO]: nashesupernashe lost connection: Timed out
-[22:11:32] [Server thread/INFO]: nashesupernashe left the game
+[15:02:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:02:37] [Server thread/INFO]: Default game type: SURVIVAL
+[15:02:37] [Server thread/INFO]: Generating keypair
+[15:02:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:02:37] [Server thread/INFO]: Using epoll channel type
+[15:02:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:02:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:02:38] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[15:02:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b2714fb]
+[15:02:39] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[15:02:39] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
+[15:02:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[15:02:40] [Server thread/INFO]: [UberEnchant] Loading server plugin UberEnchant v8.11.0
+[15:02:40] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.22.3
+[15:02:40] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (689 ms).
+[15:02:40] [Server thread/INFO]: [Shopkeepers] Loading config.
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[15:02:40] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
+[15:02:40] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[15:02:40] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[15:02:40] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[15:02:40] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[15:02:40] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
+[15:02:40] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[15:02:40] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v1.0.0
+[15:02:40] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[15:02:40] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.3
+[15:02:40] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[15:02:40] [Server thread/INFO]: [SimpleRTP] Loading server plugin SimpleRTP v5.4
+[15:02:40] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.4
+[15:02:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:02:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[15:02:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:02:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:02:41] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[15:02:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:02:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:02:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:02:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:02:43] [Server thread/INFO]: Preparing level "world"
+[15:02:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:02:45] [Server thread/INFO]: Time elapsed: 520 ms
+[15:02:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:02:45] [Server thread/INFO]: Time elapsed: 159 ms
+[15:02:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:02:45] [Server thread/INFO]: Time elapsed: 143 ms
+[15:02:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:02:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:02:46] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:02:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
+[15:02:47] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[15:02:47] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[15:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[15:02:48] [Server thread/INFO]: Time elapsed: 1184 ms
+[15:02:48] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[15:02:48] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[15:02:48] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[15:02:48] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[15:02:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[15:02:48] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[15:02:48] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[15:02:48] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[15:02:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[15:02:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:02:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:02:50] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[15:02:50] [Server thread/INFO]: [Essentials] Using locale en
+[15:02:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:02:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:02:50] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:02:50] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.11.0
+[15:02:50] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[15:02:50] [Server thread/INFO]: [UberEnchant] Custom enchantment table mechanics enabled!
+[15:02:50] [Server thread/INFO]: [UberEnchant] Custom anvil mechanics enabled!
+[15:02:50] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.22.3
+[15:02:50] [Server thread/INFO]: [Shopkeepers] Loading the data of 3 shopkeepers ...
+[15:02:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[15:02:50] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:02:50] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
+[15:02:50] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[15:02:50] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[15:02:50] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[15:02:50] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[15:02:50] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v1.0.0
+[15:02:50] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[15:02:50] [Server thread/WARN]: [AdvancedPortals] Proxy features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml).If you are using Paper proxies.velocity.enabled (config/paper-global.yml) or settings.velocity-support.enabled (paper.yml) may not be enabled 
+[15:02:50] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[15:02:50] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:02:50] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:02:50] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:02:50] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:02:50] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:02:50] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[15:02:50] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.3
+[15:02:50] [Server thread/INFO]: [SetSpawn] Enabled!
+[15:02:50] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:02:50] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[15:02:51] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:02:51] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[15:02:51] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:02:51] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:02:51] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:02:51] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[15:02:51] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v5.4
+[15:02:51] [Server thread/INFO]: [Images] Enabling Images v2.5.4
+[15:02:51] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
+[15:02:51] [Thread-10/INFO]: [ClearLag] No updates found!
+[15:02:51] [Server thread/INFO]: [UberEnchant] Found: 0 Registered UberEnchantments.
+[15:02:51] [Server thread/INFO]: [UberEnchant] Loaded: 0 UberEnchantments.
+[15:02:51] [Server thread/INFO]: Running delayed init tasks
+[15:02:51] [Server thread/INFO]: Done (16.542s)! For help, type "help"
+[15:02:51] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:02:51] [Server thread/INFO]: Timings Reset
+[15:02:52] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
+[15:02:52] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[15:02:55] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 2 images...
+[15:02:56] [User Authenticator #0/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[15:02:56] [Server thread/INFO]: nashesupernashe joined the game
+[15:02:56] [Server thread/INFO]: nashesupernashe[/127.95.6.121:39077] logged in with entity id 141 at ([spawn]-74.32809997112452, -52.0, -69.0176119461522)
+[15:03:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5054ms or 101 ticks behind
+[15:03:20] [Server thread/INFO]: nashesupernashe issued server command: /gmk 1
+[15:03:22] [Server thread/INFO]: nashesupernashe issued server command: /gm 1
+[15:05:25] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
+[15:05:25] [Server thread/INFO]: nashesupernashe left the game
+[15:05:38] [User Authenticator #1/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[15:05:38] [Server thread/INFO]: nashesupernashe joined the game
+[15:05:38] [Server thread/INFO]: nashesupernashe[/127.95.6.121:50269] logged in with entity id 66613 at ([spawn]-74.64113715160772, -52.0, -68.85741477547434)
+[15:05:42] [Server thread/INFO]: nashesupernashe issued server command: /plugins
