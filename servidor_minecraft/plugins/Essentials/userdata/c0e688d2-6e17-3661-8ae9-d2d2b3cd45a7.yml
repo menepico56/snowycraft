@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745075125719
+  logout: 1745075872368
   login: 1745075138514
 money: '0'
 last-account-name: nashesupernashe
@@ -26,6 +26,6 @@ logoutlocation:
   x: -74.64113715160772
   y: -52.0
   z: -68.85741477547434
-  yaw: -87.59375
-  pitch: 22.184030532836914
+  yaw: -92.64344787597656
+  pitch: 16.645793914794922
 confirm-clear: false
