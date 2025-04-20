@@ -19,8 +19,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2025-04-20 00:07:33 +0000",
       "minecraft:snowy_plains": "2025-04-20 00:01:50 +0000",
       "minecraft:snowy_taiga": "2025-04-20 00:05:16 +0000",
+      "minecraft:frozen_ocean": "2025-04-20 00:07:25 +0000",
+      "minecraft:snowy_beach": "2025-04-20 00:07:14 +0000",
       "minecraft:plains": "2025-04-20 00:02:12 +0000"
     },
     "done": false
@@ -76,6 +79,12 @@
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2025-04-20 00:06:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-04-20 00:08:14 +0000"
     },
     "done": true
   },
@@ -214,6 +223,12 @@
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2025-04-20 00:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-04-20 00:08:14 +0000"
     },
     "done": true
   },

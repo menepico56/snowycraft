@@ -15,3 +15,10 @@
 [00:07:32] [Server thread/INFO]: Villager EntityVillager['Nitwit'/1122447, uuid='196ef774-b7e9-4163-abc3-cc6fa50554e7', l='ServerLevel[world]', x=-184.28, y=106.00, z=-303.37, cpos=[-12, -19], tl=191, v=true] died, message: 'Nitwit suffocated in a wall'
 [00:08:29] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
 [00:08:29] [Server thread/INFO]: nashesupernashe left the game
+[00:08:39] [Server thread/INFO]: FacuPina lost connection: Disconnected
+[00:08:39] [Server thread/INFO]: FacuPina left the game
+[00:08:45] [User Authenticator #2/INFO]: UUID of player nashesupernashe is c0e688d2-6e17-3661-8ae9-d2d2b3cd45a7
+[00:08:45] [Server thread/INFO]: nashesupernashe joined the game
+[00:08:45] [Server thread/INFO]: nashesupernashe[/127.197.33.222:39309] logged in with entity id 1124670 at ([world]-22.41805385298412, 100.37480484984336, 20.606401177303162)
+[00:08:46] [Server thread/INFO]: nashesupernashe lost connection: Disconnected
+[00:08:46] [Server thread/INFO]: nashesupernashe left the game
