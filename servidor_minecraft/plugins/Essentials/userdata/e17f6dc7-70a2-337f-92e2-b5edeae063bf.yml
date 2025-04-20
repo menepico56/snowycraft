@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.156.86.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1745107327979
+  login: 1745107331909
+money: '0'
+last-account-name: FacuPina
+lastlocation:
+  world: dc8001a9-6dd6-4857-ad63-058acee72aa8
+  world-name: world
+  x: -260.5
+  y: 65.0
+  z: 293.5
+  yaw: -149.43862915039062
+  pitch: 46.41511154174805
+logoutlocation:
+  world: 1f88ad13-2583-41cb-9c7b-dc082c28fd38
+  world-name: spawn
+  x: -66.5
+  y: -51.0
+  z: -68.5
+  yaw: -119.05029296875
+  pitch: 43.143959045410156
